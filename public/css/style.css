@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background-color: cadetblue;
+}
+body
+{
+    font-family: "Lato", sans-serif;
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+h3
+{
+    font-size: 20px;
+    color: blue;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    margin-bottom: 13px;
+}
+
+table
+{
+    width:100%;
+    margin-top: 20px;
+    padding:10px;
+    border-collapse: collapse;
+}
+
+/* table td
+{
+    border:1px solid grey;
+} */
+
+table thead td
+{
+    padding:5px;
+    background-color: sienna;
+    color: white;
+    font-weight: bold;
+}
+
+table tbody td
+{
+    padding: 5px;
+}
+
+table tbody tr:nth-child(even)
+{
+    background-color: rgb(236, 197, 179);
+}
+
+.edit,.delete
+{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    display: block;
+    /* width:50px; */
+    text-align: center;
+    border-radius: 2px;
+    background-color: blueviolet;
+}
+.delete
+{
+    background-color: red;
+}
+.addBtn
+{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    background-color: darkgreen;
+    text-align: center;
+    border-radius: 2px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.form-group
+{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.form-group label, .form-group input
+{
+    display: block;
+}
+
+button
+{
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border:none;
+}
+
+.alert
+{
+    display: block;
+    padding: 5px;
+    background-color: green;
+    border-radius: 3px;
+}
