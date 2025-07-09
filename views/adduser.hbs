@@ -1,26 +1,29 @@
-<h3>Add New Student</h3>
+<div class="form-container">
+  <h3>Add New Student</h3>
 
-{{#if msg}}
-<div class="alert">{{msg}}</div>
-{{/if}}
-<form method="post" action="/adduser">
-<div class="form-group">
-    <label for="name">Name</label>
-    <br>
-    <input type="text" name="name">
+  {{#if msg}}
+    <div class="alert">{{msg}}</div>
+  {{/if}}
+
+  <form method="post" action="/adduser">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="Enter student name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="text" name="age" placeholder="Enter age" required>
+    </div>
+
+    <div class="form-group">
+      <label for="city">City</label>
+      <input type="text" name="city" placeholder="Enter city" required>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit"><i class="fas fa-paper-plane"></i> Submit</button>
+      <a href="/" class="secondaryBtn"><i class="fas fa-table"></i> View All</a>
+    </div>
+  </form>
 </div>
-<div class="form-group">
-    <label for="age">Age</label>
-    <br>
-    <input type="text" name="age">
-</div>
-<div class="form-group">
-    <label for="city">City</label>
-    <br>
-    <input type="text" name="city">
-</div>
-<div class="form-group">
-   <button type="submit">Submit</button>
-   <a href="/">View All</a>
-</div>
-</form>
