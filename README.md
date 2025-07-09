@@ -46,13 +46,15 @@ A simple and responsive full-stack **CRUD web application** to manage student re
 - [Node.js](https://nodejs.org/) installed  
 - [MySQL](https://www.mysql.com/) running  
 - Basic knowledge of terminal & database
- 1️⃣ Clone the Repository
+
+  ### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/charuishika/crud-app.git
 cd crud-app
+```
 
-2️⃣ Install Dependencies
+###2️⃣ Install Dependencies
 bash
 npm install
 3️⃣ Setup MySQL Database
