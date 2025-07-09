@@ -54,10 +54,11 @@ git clone https://github.com/charuishika/crud-app.git
 cd crud-app
 ```
 
-###2️⃣ Install Dependencies
-bash
+### 2️⃣ Install Dependencies
+```bash
 npm install
-3️⃣ Setup MySQL Database
+```
+### 3️⃣ Setup MySQL Database
 Create a database called studentdb (or your preferred name)
 
 Create a table:
