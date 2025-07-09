@@ -47,7 +47,7 @@ A simple and responsive full-stack **CRUD web application** to manage student re
 - [MySQL](https://www.mysql.com/) running  
 - Basic knowledge of terminal & database
 
-  ### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/charuishika/crud-app.git
@@ -59,28 +59,33 @@ cd crud-app
 npm install
 ```
 ### 3️⃣ Setup MySQL Database
+
 Create a database called studentdb (or your preferred name)
 
 Create a table:
 
-sql
+```sql
 CREATE TABLE students (
   Id INT AUTO_INCREMENT PRIMARY KEY,
   Name VARCHAR(255),
   Age INT,
   City VARCHAR(255)
 );
+```
 
 Update .env with your MySQL credentials:
 
-env
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=studentdb
-4️⃣ Start the App
-bash
+```
+
+### 4️⃣ Start the App
+```bash
 npm start
+```
 
 Visit: http://localhost:3000
 
