@@ -94,9 +94,9 @@ This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
 👤 Author
-Charuishika S
-Email: charusuresh06@gmail.com
-GitHub: charuishika
+-Charuishika S
+-Email: charusuresh06@gmail.com
+-GitHub: charuishika
 
 ✨ Made with love and clean code!
 
