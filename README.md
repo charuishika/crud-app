@@ -89,11 +89,11 @@ npm start
 
 Visit: http://localhost:3000
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
-👤 Author
+### 👤 Author
 -Charuishika S
 -Email: charusuresh06@gmail.com
 -GitHub: charuishika
