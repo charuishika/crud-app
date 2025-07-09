@@ -38,33 +38,6 @@ A simple and responsive full-stack **CRUD web application** to manage student re
 
 ---
 
-## 📂 Folder Structure
-crud-app/
-│
-├── public/ # Static files
-│ └── css/
-│ └── style.css # Styling (responsive, modern)
-│
-├── views/ # View templates
-│ ├── home.hbs # Home page (student table)
-│ ├── adduser.hbs # Add student form
-│ ├── edituser.hbs # Edit student form
-│ └── layouts/
-│ └── main.hbs # Main layout file
-│
-├── routes/
-│ └── user.js # All route handlers
-│
-├── db/
-│ └── connection.js # MySQL DB connection setup
-│
-├── .env # Environment variables
-├── app.js # Main server entry point
-├── package.json # Dependencies and scripts
-└── README.md # Project documentation
-
-
----
 
 ## 🧪 Getting Started
 
@@ -79,10 +52,9 @@ crud-app/
 ```bash
 git clone https://github.com/charuishika/crud-app.git
 cd crud-app
-2️⃣ Install Dependencies
+---
+### 2️⃣ Install Dependencies
 bash
-Copy
-Edit
 npm install
 3️⃣ Setup MySQL Database
 Create a database called studentdb (or your preferred name)
