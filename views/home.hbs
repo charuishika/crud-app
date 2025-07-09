@@ -15,15 +15,20 @@
         <tbody>
             {{#each rows}}
             <tr>
-                <td>{{this.Id}}</td>
-                <td>{{this.Name}}</td>
-                <td>{{this.Age}}</td>
-                <td>{{this.City}}</td>
-                <td><a href="/edituser/{{this.Id}}" class="edit">Edit</a></td>
-                <td><a onclick="return confirm('Are you sure?')" href="/deleteuser/{{this.Id}}"
-                        class="delete">Delete</a></td>
+                <td data-label="ID">{{this.Id}}</td>
+                <td data-label="Name">{{this.Name}}</td>
+                <td data-label="Age">{{this.Age}}</td>
+                <td data-label="City">{{this.City}}</td>
+                <td data-label="Edit">
+                    <a href="/edituser/{{this.Id}}" class="edit">Edit</a>
+                </td>
+                <td data-label="Delete">
+                    <a onclick="return confirm('Are you sure?')" href="/deleteuser/{{this.Id}}"
+                        class="delete">Delete</a>
+                </td>
             </tr>
             {{/each}}
         </tbody>
+
     </table>
 </div>
